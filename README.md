@@ -1,7 +1,7 @@
 # Carrinho de Compras em MVC
 
-Conjunto de classes para Carrinho de compras. O projeto foi desenvolvido para ser aplicado sober uma estrutura MVC. 
-A classe contém métodos para cálculo de Parcelas com Juros.
+Conjunto de classes em PHP construidas com base na arquitetura MVC para Carrinho de compras. Não foi utilizando nenhum framework. A intenção é apresentar um pouco do meu estilo de linhas de código. Então é um principio de framework!
+A classes contém métodos para cálculos de Parcelas com Juros. Utilizam inclusive alguns padrões de projetos.
 
 
 ## Getting Started
@@ -73,7 +73,7 @@ $carrinho = new Carrinho;
 
 ```
 
-Depois, alguns produtos foram criados:
+Depois, antes de adicionar ao carrinho, claro, alguns produtos são criados (Note a beleza do padrão Active Record!):
 
 ```php
 
